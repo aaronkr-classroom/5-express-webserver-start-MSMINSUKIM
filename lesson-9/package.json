@@ -4,11 +4,15 @@
   "description": "First Express webserver",
   "main": "main.js",
   "scripts": {
+    "start" : "nodemon 9.7.EX.js",
     "test": "jest"
   },
   "author": "Aaron Snowberger",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
